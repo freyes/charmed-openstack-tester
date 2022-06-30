@@ -12,4 +12,5 @@ git+https://opendev.org/openstack/manila-tempest-plugin.git#egg=manila-tempest-p
 cinder-tempest-plugin;python_version<'3.6'
 designate-tempest-plugin;python_version<'3.6'
 setuptools<50.0.0  # https://github.com/pypa/setuptools/commit/04e3df22df840c6bb244e9b27bc56750c44b7c85
-octavia-tempest-plugin
+git+https://opendev.org/openstack/octavia-tempest-plugin.git#egg=octavia-tempest-plugin;python_version>='3.6'
+octavia-tempest-plugin;python_version<'3.6'
